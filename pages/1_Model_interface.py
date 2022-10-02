@@ -6,9 +6,9 @@ import numpy as np
 import os
 st.set_page_config(page_title='Model Interface', page_icon='🤖', layout='wide')
 st.subheader('Feature Engineering')
-img = Image.open('C:/Users/harsh/PycharmProjects/Harshvir_S/College_assignments/Web_app/pearson_correlation_matrix.JPG')
+img = Image.open('./pearson_correlation_matrix.JPG')
 img1 = Image.open(
-    'C:/Users/harsh/PycharmProjects/Harshvir_S/College_assignments/Web_app/spearman_correlation_matrix.JPG')
+    './spearman_correlation_matrix.JPG')
 col1, col2 = st.columns(2)
 with col2:
     st.image(img.resize((480, 400)), caption='Pearson Correlation Matrix')
