@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 
-st.set_page_config(page_title='Name', page_icon='☀️', layout='wide')
+st.set_page_config(page_title='Home Page', page_icon='☀️', layout='wide')
 st.title('Solar Flare Prediction with Deep Learning')
 st.markdown(
     '<h5>The <i>Carrington Event</i> of 1859 was the most intense solar event of the century. During this, '
